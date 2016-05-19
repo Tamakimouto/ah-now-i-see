@@ -1,0 +1,8 @@
+@font-face {
+    font-family: main;
+    src: url("../fonts/main.ttf");
+}
+
+button {
+    font-family: main;
+}
