@@ -91,6 +91,7 @@ var script = {
 
 	"h Go ahead and create an amazing Game!",
 	"h I can't wait to see what story you'll tell!",
+	"pee in my mouth",
 	"end"
     ]
 }
