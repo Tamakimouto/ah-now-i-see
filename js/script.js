@@ -19,7 +19,7 @@ var voice = {
 
 // Define the sounds used in the game.
 var sound = {
-
+    "bird": "crow.mp3"
 }
 
 // Define the videos used in the game.
@@ -34,7 +34,10 @@ var images = {
 
 // Define the backgrounds for each scene.
 var scenes = {
-    "bed": "bedroom.png"
+    "bed": "bedroom.png",
+    "bedroom": "r_bedroom.png",
+    "bath": "bathroom.jpg",
+    "empty": "empty.jpg"
 }
 
 // Define the Characters
@@ -44,8 +47,8 @@ var characters = {
 	"Color": "#5bcaff"
     },
 
-    "mom":{
-	"Name": "Mom",
+    "dad":{
+	"Name": "Dad",
 	"Color": "#5bcaff"
     }
 }
@@ -57,19 +60,37 @@ var script = {
 	"mc ...?",
 	"I open my eyes to the usual darkness.",
 	"What time is it?",
-	"Where's mom?",
-	"mom Oh, Emily, you're up? Good Morning, try and get ready for breakfast.",
-	"Mother calls me from the kitchen.",
-	"Ah, I see...it's morning.",
+	"Where's Father?",
+	"dad Emily, what are you doing?! Hurry up and get ready!",
+	"Father calls me from the kitchen.",
 	"scene bed",
+	"Ah, now I see...it's morning.",
+	"I debate whether to respond to Father, but nothing good has ever come of it.",
+	"I assume he can tell by the sounds that I'm up.",
+	"A moment passes by as I reflect on my suroundings.",
+	"I live in a rural neighborhood, the sun is shining bright and the birds are humming.",
+	"It's another beautiful day...",
+	"... Did you think I was going to say something like that?",
+	"Ofcourse that's not how things are...",
+	"play sound bird",
+	"scene bedroom",
+	"We don't live in that kind of happy-go-lucky world.",
+	"Though, we do actually have birds outside.",
+	"Getting out of bed, I slowly make my way to the bathroom.",
+	"scene empty",
+	"mc Now... where's the sink?",
+	"I feel around the surroundings in an attempt find where I am.",
+	"Ah...Now I see, here it is.",
+	"scene bath",
+	"Here ends this demo...",
 
 	{"Choice":{
 	    "Test1":{
-		"Text": "test",
+		"Text": "Does it work?",
 		"Do": "jump Yes"
 	    },
 	    "Test2":{
-		"Text": "test",
+		"Text": "Does it not work?",
 		"Do": "jump No" 
 	    }
 	}}
@@ -77,20 +98,13 @@ var script = {
 
     "Yes":[
 
-	"h That's awesome!",
-	"h Then you are ready to go ahead and create an amazing Game!",
-	"h I can't wait to see what story you'll tell!",
+	"Good, Here ends the demo",
 	"end"
     ],
 
     "No":[
 
-	"h You can do it now.",
-
-	"display message Help",
-
-	"h Go ahead and create an amazing Game!",
-	"h I can't wait to see what story you'll tell!",
+	"mc You... You LIAR!",
 	"end"
     ]
 }
