@@ -239,7 +239,11 @@ section div {
 }
 
 [data-ui="text"] {
-    background-color: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
     min-height: 20vh;
     max-height: 25vh;
     overflow-y: scroll;
@@ -260,6 +264,7 @@ section div {
     width: 100%;
     padding: 1vmin;
     margin: 0;
+    font-size: 1.5vmax;
 }
 
 [data-ui="text"] .fa {
