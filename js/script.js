@@ -101,6 +101,16 @@ var script = {
 	"siri At the tone, the time will be 5:41 AM ... beep.",
 	"mc Seems like I'm almost late for school...",
 	"I've just about stopped caring about such things for a while now.",
+	"It’s not that I’m extremely unmotivated or anything.",
+	"I too once had a dream.",
+	"I wanted to be a director, to follow in the footsteps of Jackie Chan, Hideaki Ano, or Jean Godard…",
+	"Thus I attended Film School.",
+	"But that dream was taken from me...",
+	"Now I can only see glimpses of that dream from within my dreams.",
+	"It’s one thing if I was as qualified or capable as others, but I’m not...not anymore.",
+	"So I have to conform to what fits.",
+	"mc But the question is...what could possibly fit?...",
+	"It seems like things are getting farther and farther away.",
 	
 	
 	
