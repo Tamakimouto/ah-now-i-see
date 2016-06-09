@@ -69,7 +69,7 @@ var script = {
 	"Where's Father?",
 	"dad EMILY, WHAT THE FUCK ARE YOU DOIN?! HURRY UP THE HELL UP!",
 	"Father calls me from the kitchen.",
-	
+
 	"scene bed",
 	"Ah, now I see...it's morning.",
 	"I debate whether or not to respond to Father, but nothing good has ever come of it.",
@@ -80,7 +80,7 @@ var script = {
 	"... Only the mentally ill would say something like that.",
 	"Of course that's not how things are...",
 	"play sound bird",
-	
+
 	"scene bedroom",
 	"mc We don't live in that kind of happy-go-lucky world.",
 	"mc Though, we do actually have birds outside...",
@@ -89,7 +89,7 @@ var script = {
 	"mc Now... where's the sink?",
 	"I feel around the surroundings in an attempt find where I am.",
 	"Ah...Now I see, here it is.",
-	
+
 	"scene bath",
 	"The water turns on and I once again begin my daily ritual.",
 	"play sound water loop",
@@ -110,10 +110,15 @@ var script = {
 	"It’s one thing if I was as qualified or capable as others, but I’m not...not anymore.",
 	"So I have to conform to what fits.",
 	"mc But the question is...what could possibly fit?...",
+	"stop sound"
 	"It seems like things are getting farther and farther away.",
-	
-	
-	
+
+	"scene bedroom",
+	"mc Hey Siri...",
+	"siri *Beep Boop*",
+	"mc Where are you?",
+	"Uninterested in the response, I wade through the darkness towards Siri’s voice.",
+
 
 	{"Choice":{
 	    "Test1":{
@@ -122,7 +127,7 @@ var script = {
 	    },
 	    "Test2":{
 		"Text": "Does it not work?",
-		"Do": "jump No" 
+		"Do": "jump No"
 	    }
 	}}
     ],
