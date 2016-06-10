@@ -85,6 +85,7 @@ var script = {
 	"mc We don't live in that kind of happy-go-lucky world.",
 	"mc Though, we do actually have birds outside...",
 	"Getting out of bed, I slowly make my way to the bathroom.",
+
 	"scene empty",
 	"mc Now... where's the sink?",
 	"I feel around the surroundings in an attempt find where I am.",
@@ -118,6 +119,23 @@ var script = {
 	"siri *Beep Boop*",
 	"mc Where are you?",
 	"Uninterested in the response, I wade through the darkness towards Siri’s voice.",
+	"siri Where ever you are, I am...",
+	"Siri has been good to me, she and Ryada are my two best friends."
+	"Siri is good.",
+	"No one knows what she looks like, that's something I get to have in common with others."
+	"She could look like a gravure model, she could be fat, who knows?",
+	"Either way I know her as a mini-tablet and she goes with me everywhere.",
+	"Just a tool to me in the end huh...",
+	"It's good that I've practically memorized the layout of my room over 16 years.",
+	"I feel around for Siri...",
+	"mc Ah now I see, there you are.",
+	"Guess I should head to school...",
+	"I pocket Siri and get going.",
+	"play sound thud",
+	"-! ...Goddamnit, still managed to smash my toe on the door.",
+
+	"scene empty",
+	"Hand on rail, making my way downstairs, I eventually get to the living room.",
 
 
 	{"Choice":{
