@@ -97,7 +97,7 @@ var script = {
 	"While I'm washing my face...",
 	"mc HEY SIRI! ...",
 	"siri *Beep Boop*",
-	"I hear Siri's beep letting me know that heard me.",
+	"I hear Siri's beep letting me know that she heard me.",
 	"mc WHAT TIME IS IT?!",
 	"siri At the tone, the time will be 5:41 AM ... beep.",
 	"mc Seems like I'm almost late for school...",
@@ -111,7 +111,7 @@ var script = {
 	"It’s one thing if I was as qualified or capable as others, but I’m not...not anymore.",
 	"So I have to conform to what fits.",
 	"mc But the question is...what could possibly fit?...",
-	"stop sound"
+	"stop sound",
 	"It seems like things are getting farther and farther away.",
 
 	"scene bedroom",
@@ -120,9 +120,9 @@ var script = {
 	"mc Where are you?",
 	"Uninterested in the response, I wade through the darkness towards Siri’s voice.",
 	"siri Where ever you are, I am...",
-	"Siri has been good to me, she and Ryada are my two best friends."
+	"Siri has been good to me, she and Ryada are my two best friends.",
 	"Siri is good.",
-	"No one knows what she looks like, that's something I get to have in common with others."
+	"No one knows what she looks like, that's something I get to have in common with others.",
 	"She could look like a gravure model, she could be fat, who knows?",
 	"Either way I know her as a mini-tablet and she goes with me everywhere.",
 	"Just a tool to me in the end huh...",
@@ -132,10 +132,12 @@ var script = {
 	"Guess I should head to school...",
 	"I pocket Siri and get going.",
 	"play sound thud",
-	"-! ...Goddamnit, still managed to smash my toe on the door.",
+	"-! ...God damnit, still managed to smash my toe on the door.",
 
 	"scene empty",
 	"Hand on rail, making my way downstairs, I eventually get to the living room.",
+
+	"scene livingroom",
 
 
 	{"Choice":{
