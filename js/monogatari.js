@@ -828,7 +828,7 @@ $(document).ready(function(){
 			if(directory == null){
 			    directory = "";
 			}
-			var image = characters[parts[1]]["Images"][parts[2]].split(" ")[0];
+			var image = characters[parts[1]]["Images"][parts[2]];
 			$("[data-character='" + parts[1] + "']").remove();
 			if(parts[3] == null){
 			    parts[3] = "center";

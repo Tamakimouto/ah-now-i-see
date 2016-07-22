@@ -126,6 +126,11 @@ section div {
     -webkit-user-drag: none;
     -ms-user-select: none;
     max-height: 90%;
+    pointer-events: none;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 #game [data-image] {
