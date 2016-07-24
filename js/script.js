@@ -74,7 +74,6 @@ var script = {
 	"Father calls me from the kitchen.",
 
 	"scene bed",
-	"show mc Normal",
 	"Ah, now I see...it's morning.",
 	"I debate whether or not to respond to Father, but nothing good has ever come of it.",
 	"I assume he can tell by the sounds that I'm up.",
