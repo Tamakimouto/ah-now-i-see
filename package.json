@@ -1,5 +1,8 @@
 {
-  "name"    : "your-vn-name",
-  "version" : "0.1.0",
-  "main"    : "electron.js"
+  "name": "Ah, Now I See...",
+  "version": "0.1.0",
+  "main": "electron.js",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }

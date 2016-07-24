@@ -1,2 +1,12 @@
 .DS_Store
 *.zip
+.thumbs
+.Thumbs
+.buildconfig
+gulpfile.js
+/node_modules
+/cache
+/src
+/build
+/release
+/dist
