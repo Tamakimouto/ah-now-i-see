@@ -35,10 +35,11 @@ var images = {
 
 // Define the backgrounds for each scene.
 var scenes = {
-    "bed": "bedroom.png",
-    "bedroom": "r_bedroom.png",
+    "bed": "bedroom.jpg",
+    "bedroom": "r_bedroom.jpg",
     "bath": "bathroom.jpg",
-    "empty": "empty.jpg"
+    "empty": "empty.jpg",
+    "livingroom": "living.jpg"
 }
 
 // Define the Characters
@@ -46,14 +47,14 @@ var characters = {
     "mc":{
 	"Name": "Emily",
 	"Color": "#5bcaff",
-	"Images":{
-	    "Normal": "ilias 1.png"
-	}
     },
 
     "dad":{
 	"Name": "Richard",
-	"Color": "#5bcaff"
+	"Color": "#5bcaff",
+	"Images":{
+	    "normal": "rich.png"
+	}
     },
 
     "siri":{
@@ -141,7 +142,9 @@ var script = {
 	"Hand on rail, making my way downstairs, I eventually get to the living room.",
 
 	"scene livingroom",
-
+	"show dad normal with fade-in",
+	"dad GOD DAMNIT YA GOOD FER NOTHIN BRAT!",
+	"dad GET THE FUCK OUT OF HERE BEFORE THEY SEND THE DAMNED HUMAN SERVICES FUCKS AGAIN!!",
 
 	{"Choice":{
 	    "Test1":{
