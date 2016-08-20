@@ -9,7 +9,12 @@ var messages = {
 
 // Define the music used in the game.
 var music = {
-    "dreary": "dreary.mp3"
+    "dreary": "dreary.mp3",
+    "mystic": "sparkles.mp3",
+    "melan": "nd.wav",
+    "remen": "reflection.mp3",
+    "somber": "slowwaltz.mp3",
+    "drama": "shikishort.mp3"
 }
 
 // Define the voice files used in the game.
@@ -20,7 +25,11 @@ var voice = {
 // Define the sounds used in the game.
 var sound = {
     "bird": "crow.mp3",
-    "water": "water.mp3"
+    "water": "water.mp3",
+    "glass": "glass.mp3",
+    "bell": "bell.mp3",
+    "thud": "thup.mp3",
+    "door": "door.mp3"
 }
 
 // Define the videos used in the game.
@@ -60,6 +69,14 @@ var characters = {
     "siri":{
 	"Name": "Siri",
 	"Color": "blue"
+    },
+
+    "rat":{
+	"Name": "Ryada",
+	"Color": "grey",
+	"Images":{
+	    "normal": "ryada.png"
+	}
     },
 }
 
@@ -142,9 +159,25 @@ var script = {
 	"Hand on rail, making my way downstairs, I eventually get to the living room.",
 
 	"scene livingroom",
+	"play music drama loop",
 	"show dad normal with fade-in",
 	"dad GOD DAMNIT YA GOOD FER NOTHIN BRAT!",
 	"dad GET THE FUCK OUT OF HERE BEFORE THEY SEND THE DAMNED HUMAN SERVICES FUCKS AGAIN!!",
+	"play sound glass",
+	"mc y-yes father...",
+	"dad HURRY THE HELL UP!",
+	"Every morning I'd coast along the wall around my father to get outside.",
+	"I'm tired of having to be scared shitless of this bastard.",
+	"Quite frankly...",
+	"I wish he'd just die",
+
+	"scene empty",
+	"play sound door",
+	"rat Hey Emily, morning.",
+	"rat That bastard do anything to you?",
+	"Ah... I see, she's here again.",
+
+	"scene "
 
 	{"Choice":{
 	    "Test1":{
