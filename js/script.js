@@ -177,7 +177,7 @@ var script = {
 	"rat That bastard do anything to you?",
 	"Ah... I see, she's here again.",
 
-	"scene "
+	"scene frontyard",
 
 	{"Choice":{
 	    "Test1":{
