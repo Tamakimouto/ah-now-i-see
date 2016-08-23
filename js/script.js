@@ -48,7 +48,8 @@ var scenes = {
     "bedroom": "r_bedroom.jpg",
     "bath": "bathroom.jpg",
     "empty": "empty.jpg",
-    "livingroom": "living.jpg"
+    "livingroom": "living.jpg",
+    "frontyard": "yard.jpg"
 }
 
 // Define the Characters
