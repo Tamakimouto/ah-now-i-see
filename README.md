@@ -2,6 +2,8 @@
 An original web based visual novel written in Javascript using Monogatari engine.
 Currently a work in progress, hope to have it released soon for PC and mobile.
 
+![Game's title page](https://raw.githubusercontent.com/Tamakimouto/Tamakimouto.github.io/pixel/img/resource/anis_preview.png)
+
 ## Synopsys
 In this piece we follow the story of Emily, with a personal quirk, who lives
 in a not so happy-go-lucky world trying to make it through everyday. As it's my
